@@ -3,19 +3,6 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-import sildeVerify from '../src/components/verify.vue'
-const verify = {
-  install(Vue,options){
-    Vue.component("sildeVerify",sildeVerify)
-  }
-}
-
-if(typeof window !== 'undefined'){
-  window.verify = verify
-  Vue.use(verify)
-}
-
-export default verify
 
 module.exports = {
   dev: {

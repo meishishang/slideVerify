@@ -1,20 +1,20 @@
 {
-  "name": "slideverify",
+  "name": "su-vue-slide-verify",
   "version": "1.0.0",
-  "description": "A slider verification with image",
+  "description": "A slider verification with image for login",
   "author": "suxueli <1120443853@qq.com>",
   "private": false,
   "license": "MIT",
-  "main":"dist/slide-verify.js",
+  "main":"dist/verify.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dist.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/echo-lu/mini-sliders.git"
+    "url": "git https://github.com/meishishang/slideVerify"
     },
   "dependencies": {
     "vue": "^2.5.2",
@@ -67,10 +67,15 @@
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   },
+ "keywords": [
+  "vue",
+  "verify"
+  ],
   "engines": {
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
+  "homepage": "https://github.com/meishishang/slideVerify/blob/main/README.md",
   "browserslist": [
     "> 1%",
     "last 2 versions",

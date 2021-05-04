@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import verify from './lib/verify.js'
+
+Vue.use(verify)
 
 Vue.config.productionTip = false
 

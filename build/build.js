@@ -9,7 +9,8 @@ const path = require('path')
 const chalk = require('chalk')
 const webpack = require('webpack')
 const config = require('../config')
-const webpackConfig = require('./webpack.prod.conf')
+// const webpackConfig = require('./webpack.prod.conf')//生产环境
+const webpackConfig = require('./webpack.dist.conf')//打包
 
 const spinner = ora('building for production...')
 spinner.start()

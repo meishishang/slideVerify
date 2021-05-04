@@ -34,6 +34,7 @@
 const relativePointX = 10;
 const errorRange = 3;
 export default {
+    name:"verify",
     props:{
         imgs:{
             type:Array,

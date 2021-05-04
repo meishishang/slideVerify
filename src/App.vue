@@ -8,12 +8,8 @@
 </template>
 
 <script>
-import verify from './components/verify'
 export default {
   name: 'App',
-  components:{
-    verify
-  },
   data(){
     return {
       imgs:[]
